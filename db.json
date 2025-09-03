@@ -1,4 +1,639 @@
 {
-  "posts": [],
-  "comments": []
+  "posts": [
+    {
+      "id": 1,
+      "title": "Morning Coffee Ritual",
+      "body": "There's something magical about that first cup of coffee in the morning. The aroma, the warmth, the promise of a new day ahead.",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=1",
+      "author": "Sarah Chen",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "createdAt": "2024-01-15T08:30:00Z",
+      "commentCount": 12,
+      "likesCount": 245
+    },
+    {
+      "id": 2,
+      "title": "Weekend Hiking Adventure",
+      "body": "Conquered a 10-mile trail today! The views from the summit were absolutely breathtaking. Nature never fails to amaze me.",
+      "mediaType": "video",
+      "mediaUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "thumbnailUrl": "https://picsum.photos/400/600?random=2",
+      "author": "Mike Rodriguez",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "createdAt": "2024-01-15T16:45:00Z",
+      "commentCount": 8,
+      "likesCount": 156
+    },
+    {
+      "id": 3,
+      "title": "New Recipe Success!",
+      "body": "Finally nailed that sourdough recipe I've been working on for weeks. The crust is perfect and the inside is so fluffy!",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=3",
+      "author": "Emma Watson",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "createdAt": "2024-01-16T11:20:00Z",
+      "commentCount": 6,
+      "likesCount": 189
+    },
+    {
+      "id": 4,
+      "title": "Quiet Sunday",
+      "body": "Sometimes the best weekends are the quiet ones. Just me, a good book, and some tea.",
+      "mediaType": "text",
+      "mediaUrl": null,
+      "author": "David Kim",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "createdAt": "2024-01-16T14:15:00Z",
+      "commentCount": 0,
+      "likesCount": 67
+    },
+    {
+      "id": 5,
+      "title": "City Lights",
+      "body": "The city looks completely different at night. All those lights creating patterns and stories in the darkness.",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=5",
+      "author": "Lisa Park",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "createdAt": "2024-01-17T22:30:00Z",
+      "commentCount": 4,
+      "likesCount": 234
+    },
+    {
+      "id": 6,
+      "title": "Beach Day Vibes",
+      "body": "Nothing beats the sound of waves and the feeling of sand between your toes. Perfect day for the beach!",
+      "mediaType": "video",
+      "mediaUrl": "http://techslides.com/demos/sample-videos/small.mp4",
+      "thumbnailUrl": "https://picsum.photos/400/600?random=6",
+      "author": "Alex Johnson",
+      "avatar": "https://i.pravatar.cc/150?img=6",
+      "createdAt": "2024-01-18T13:45:00Z",
+      "commentCount": 7,
+      "likesCount": 312
+    },
+    {
+      "id": 7,
+      "title": "Late Night Thoughts",
+      "body": "Why do the best ideas always come at 2 AM? Currently designing my dream house in my head.",
+      "mediaType": "text",
+      "mediaUrl": null,
+      "author": "Jordan Taylor",
+      "avatar": "https://i.pravatar.cc/150?img=7",
+      "createdAt": "2024-01-19T02:15:00Z",
+      "commentCount": 0,
+      "likesCount": 78
+    },
+    {
+      "id": 8,
+      "title": "Garden Progress",
+      "body": "My tomatoes are finally starting to ripen! Nothing tastes better than homegrown vegetables.",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=8",
+      "author": "Maria Santos",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "createdAt": "2024-01-19T09:30:00Z",
+      "commentCount": 5,
+      "likesCount": 143
+    },
+    {
+      "id": 9,
+      "title": "Concert Night",
+      "body": "Just got back from the most amazing live show! The energy was incredible and the band was on fire.",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=9",
+      "author": "Ryan Lee",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "createdAt": "2024-01-19T23:45:00Z",
+      "commentCount": 9,
+      "likesCount": 267
+    },
+    {
+      "id": 10,
+      "title": "Monday Motivation",
+      "body": "New week, new opportunities! Let's make this one count. What are your goals for this week?",
+      "mediaType": "text",
+      "mediaUrl": null,
+      "author": "Sophie Green",
+      "avatar": "https://i.pravatar.cc/150?img=10",
+      "createdAt": "2024-01-20T07:00:00Z",
+      "commentCount": 0,
+      "likesCount": 89
+    },
+    {
+      "id": 11,
+      "title": "Art Museum Visit",
+      "body": "Spent hours at the modern art museum today. Some pieces I loved, others I didn't understand, but all made me think.",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=11",
+      "author": "Tom Wilson",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "createdAt": "2024-01-20T15:20:00Z",
+      "commentCount": 3,
+      "likesCount": 156
+    },
+    {
+      "id": 12,
+      "title": "Rainy Day Coding",
+      "body": "Perfect weather for staying inside and working on that side project. Sometimes the best productivity comes from cozy days.",
+      "mediaType": "text",
+      "mediaUrl": null,
+      "author": "Anna Davis",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "createdAt": "2024-01-21T10:45:00Z",
+      "commentCount": 2,
+      "likesCount": 94
+    },
+    {
+      "id": 13,
+      "title": "Sunset Drive",
+      "body": "Sometimes you just need to drive with no destination in mind. The sunset tonight was worth the gas money.",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=13",
+      "author": "Chris Brown",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "createdAt": "2024-01-21T18:30:00Z",
+      "commentCount": 4,
+      "likesCount": 201
+    },
+    {
+      "id": 14,
+      "title": "Gym Victory",
+      "body": "Finally hit that personal record I've been chasing for months! Consistency really does pay off.",
+      "mediaType": "image",
+      "mediaUrl": "https://picsum.photos/400/600?random=14",
+      "author": "Jake Miller",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "createdAt": "2024-01-22T06:15:00Z",
+      "commentCount": 6,
+      "likesCount": 178
+    },
+    {
+      "id": 15,
+      "title": "Food Truck Discovery",
+      "body": "Found this amazing Korean BBQ food truck today. Sometimes the best meals come from the most unexpected places!",
+      "mediaType": "video",
+      "mediaUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "thumbnailUrl": "https://picsum.photos/400/600?random=15",
+      "author": "Mia Thompson",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "createdAt": "2024-01-22T19:00:00Z",
+      "commentCount": 8,
+      "likesCount": 289
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": "Emma Davis",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "text": "I feel the same way about my morning coffee! What's your favorite blend?",
+      "createdAt": "2024-01-15T09:00:00Z",
+      "likesCount": 12
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": "Jake Miller",
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "text": "Coffee is life! ☕",
+      "createdAt": "2024-01-15T09:15:00Z",
+      "likesCount": 8
+    },
+    {
+      "id": 3,
+      "postId": 1,
+      "author": "Lisa Park",
+      "avatar": "https://i.pravatar.cc/150?img=18",
+      "text": "Have you tried cold brew? It's a game changer for summer mornings.",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "likesCount": 15
+    },
+    {
+      "id": 4,
+      "postId": 1,
+      "author": "Ryan Lee",
+      "avatar": "https://i.pravatar.cc/150?img=19",
+      "text": "That setup looks so cozy! Love the mug.",
+      "createdAt": "2024-01-15T11:45:00Z",
+      "likesCount": 6
+    },
+    {
+      "id": 5,
+      "postId": 1,
+      "author": "Sophie Green",
+      "avatar": "https://i.pravatar.cc/150?img=20",
+      "text": "Morning coffee rituals are sacred! Mine involves exactly 3 minutes of silence before I talk to anyone.",
+      "createdAt": "2024-01-15T12:00:00Z",
+      "likesCount": 22
+    },
+    {
+      "id": 6,
+      "postId": 1,
+      "author": "Tom Wilson",
+      "avatar": "https://i.pravatar.cc/150?img=21",
+      "text": "I'm more of a tea person, but I can appreciate the coffee love!",
+      "createdAt": "2024-01-15T13:15:00Z",
+      "likesCount": 4
+    },
+    {
+      "id": 7,
+      "postId": 1,
+      "author": "Anna Davis",
+      "avatar": "https://i.pravatar.cc/150?img=22",
+      "text": "The smell alone is enough to wake me up completely.",
+      "createdAt": "2024-01-15T14:30:00Z",
+      "likesCount": 9
+    },
+    {
+      "id": 8,
+      "postId": 1,
+      "author": "Chris Brown",
+      "avatar": "https://i.pravatar.cc/150?img=23",
+      "text": "French press or pour over? What's your method?",
+      "createdAt": "2024-01-15T15:45:00Z",
+      "likesCount": 7
+    },
+    {
+      "id": 9,
+      "postId": 1,
+      "author": "Mia Thompson",
+      "avatar": "https://i.pravatar.cc/150?img=24",
+      "text": "This photo captures the vibe perfectly! ✨",
+      "createdAt": "2024-01-15T16:00:00Z",
+      "likesCount": 11
+    },
+    {
+      "id": 10,
+      "postId": 1,
+      "author": "Jordan Taylor",
+      "avatar": "https://i.pravatar.cc/150?img=25",
+      "text": "I need to slow down and enjoy my coffee more like this.",
+      "createdAt": "2024-01-15T17:15:00Z",
+      "likesCount": 13
+    },
+    {
+      "id": 11,
+      "postId": 1,
+      "author": "Alex Johnson",
+      "avatar": "https://i.pravatar.cc/150?img=26",
+      "text": "Nothing beats that first sip!",
+      "createdAt": "2024-01-15T18:30:00Z",
+      "likesCount": 5
+    },
+    {
+      "id": 12,
+      "postId": 1,
+      "author": "Maria Santos",
+      "avatar": "https://i.pravatar.cc/150?img=27",
+      "text": "Your morning routine sounds so peaceful and mindful.",
+      "createdAt": "2024-01-15T19:45:00Z",
+      "likesCount": 16
+    },
+    {
+      "id": 13,
+      "postId": 2,
+      "author": "Sarah Chen",
+      "avatar": "https://i.pravatar.cc/150?img=28",
+      "text": "10 miles?! You're amazing! What trail was this?",
+      "createdAt": "2024-01-15T17:00:00Z",
+      "likesCount": 18
+    },
+    {
+      "id": 14,
+      "postId": 2,
+      "author": "David Kim",
+      "avatar": "https://i.pravatar.cc/150?img=29",
+      "text": "Those views look incredible! I need to get back into hiking.",
+      "createdAt": "2024-01-15T17:30:00Z",
+      "likesCount": 14
+    },
+    {
+      "id": 15,
+      "postId": 2,
+      "author": "Emma Watson",
+      "avatar": "https://i.pravatar.cc/150?img=30",
+      "text": "The video quality is amazing! What did you film this with?",
+      "createdAt": "2024-01-15T18:00:00Z",
+      "likesCount": 9
+    },
+    {
+      "id": 16,
+      "postId": 2,
+      "author": "Lisa Park",
+      "avatar": "https://i.pravatar.cc/150?img=31",
+      "text": "This makes me want to plan a hiking trip ASAP! 🥾",
+      "createdAt": "2024-01-15T18:45:00Z",
+      "likesCount": 21
+    },
+    {
+      "id": 17,
+      "postId": 2,
+      "author": "Ryan Lee",
+      "avatar": "https://i.pravatar.cc/150?img=32",
+      "text": "Great job pushing through! The sense of accomplishment must be incredible.",
+      "createdAt": "2024-01-15T19:15:00Z",
+      "likesCount": 12
+    },
+    {
+      "id": 18,
+      "postId": 2,
+      "author": "Sophie Green",
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "text": "Nature therapy at its finest!",
+      "createdAt": "2024-01-15T20:00:00Z",
+      "likesCount": 7
+    },
+    {
+      "id": 19,
+      "postId": 2,
+      "author": "Tom Wilson",
+      "avatar": "https://i.pravatar.cc/150?img=34",
+      "text": "I can almost feel the fresh air through the screen!",
+      "createdAt": "2024-01-15T20:30:00Z",
+      "likesCount": 10
+    },
+    {
+      "id": 20,
+      "postId": 2,
+      "author": "Anna Davis",
+      "avatar": "https://i.pravatar.cc/150?img=35",
+      "text": "Your hiking posts always motivate me to get outside more.",
+      "createdAt": "2024-01-15T21:00:00Z",
+      "likesCount": 15
+    },
+    {
+      "id": 21,
+      "postId": 3,
+      "author": "Mike Rodriguez",
+      "avatar": "https://i.pravatar.cc/150?img=36",
+      "text": "Sourdough is so tricky! Congrats on nailing it. Any tips for a beginner?",
+      "createdAt": "2024-01-16T12:00:00Z",
+      "likesCount": 19
+    },
+    {
+      "id": 22,
+      "postId": 3,
+      "author": "Jordan Taylor",
+      "avatar": "https://i.pravatar.cc/150?img=37",
+      "text": "That crust looks absolutely perfect! 🍞",
+      "createdAt": "2024-01-16T12:30:00Z",
+      "likesCount": 13
+    },
+    {
+      "id": 23,
+      "postId": 3,
+      "author": "Alex Johnson",
+      "avatar": "https://i.pravatar.cc/150?img=38",
+      "text": "The patience required for sourdough is real! Worth it though.",
+      "createdAt": "2024-01-16T13:00:00Z",
+      "likesCount": 8
+    },
+    {
+      "id": 24,
+      "postId": 3,
+      "author": "Maria Santos",
+      "avatar": "https://i.pravatar.cc/150?img=39",
+      "text": "I can almost smell it from here! Homemade bread hits different.",
+      "createdAt": "2024-01-16T13:45:00Z",
+      "likesCount": 11
+    },
+    {
+      "id": 25,
+      "postId": 3,
+      "author": "Chris Brown",
+      "avatar": "https://i.pravatar.cc/150?img=40",
+      "text": "Weeks of practice paying off! Dedication goals right there.",
+      "createdAt": "2024-01-16T14:15:00Z",
+      "likesCount": 16
+    },
+    {
+      "id": 26,
+      "postId": 3,
+      "author": "Mia Thompson",
+      "avatar": "https://i.pravatar.cc/150?img=41",
+      "text": "Please share the recipe if you're willing! This looks amazing.",
+      "createdAt": "2024-01-16T15:00:00Z",
+      "likesCount": 22
+    },
+    {
+      "id": 27,
+      "postId": 5,
+      "author": "Sarah Chen",
+      "avatar": "https://i.pravatar.cc/150?img=42",
+      "text": "Night photography is so underrated! This composition is beautiful.",
+      "createdAt": "2024-01-17T23:00:00Z",
+      "likesCount": 14
+    },
+    {
+      "id": 28,
+      "postId": 5,
+      "author": "Mike Rodriguez",
+      "avatar": "https://i.pravatar.cc/150?img=43",
+      "text": "The way the lights reflect creates such an artistic pattern!",
+      "createdAt": "2024-01-17T23:30:00Z",
+      "likesCount": 17
+    },
+    {
+      "id": 29,
+      "postId": 5,
+      "author": "Emma Watson",
+      "avatar": "https://i.pravatar.cc/150?img=44",
+      "text": "Cities really do transform at night. Great capture! 🌃",
+      "createdAt": "2024-01-18T00:00:00Z",
+      "likesCount": 20
+    },
+    {
+      "id": 30,
+      "postId": 5,
+      "author": "David Kim",
+      "avatar": "https://i.pravatar.cc/150?img=45",
+      "text": "This makes me want to go on a late night photo walk!",
+      "createdAt": "2024-01-18T00:30:00Z",
+      "likesCount": 12
+    },
+    {
+      "id": 31,
+      "postId": 6,
+      "author": "Lisa Park",
+      "avatar": "https://i.pravatar.cc/150?img=46",
+      "text": "Beach days are the best therapy! That water looks so inviting.",
+      "createdAt": "2024-01-18T14:15:00Z",
+      "likesCount": 15
+    },
+    {
+      "id": 32,
+      "postId": 6,
+      "author": "Ryan Lee",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "text": "The sound of waves is so relaxing. I can almost hear it! 🌊",
+      "createdAt": "2024-01-18T14:45:00Z",
+      "likesCount": 18
+    },
+    {
+      "id": 33,
+      "postId": 6,
+      "author": "Sophie Green",
+      "avatar": "https://i.pravatar.cc/150?img=48",
+      "text": "Perfect beach weather! Hope you got some good sun time.",
+      "createdAt": "2024-01-18T15:30:00Z",
+      "likesCount": 9
+    },
+    {
+      "id": 34,
+      "postId": 6,
+      "author": "Tom Wilson",
+      "avatar": "https://i.pravatar.cc/150?img=49",
+      "text": "Nothing beats that beach feeling! Great video quality too.",
+      "createdAt": "2024-01-18T16:00:00Z",
+      "likesCount": 13
+    },
+    {
+      "id": 35,
+      "postId": 6,
+      "author": "Anna Davis",
+      "avatar": "https://i.pravatar.cc/150?img=50",
+      "text": "Sand between toes is such a specific but perfect feeling!",
+      "createdAt": "2024-01-18T16:30:00Z",
+      "likesCount": 11
+    },
+    {
+      "id": 36,
+      "postId": 6,
+      "author": "Chris Brown",
+      "avatar": "https://i.pravatar.cc/150?img=51",
+      "text": "This makes me miss summer so much! 🏖️",
+      "createdAt": "2024-01-18T17:00:00Z",
+      "likesCount": 16
+    },
+    {
+      "id": 37,
+      "postId": 6,
+      "author": "Mia Thompson",
+      "avatar": "https://i.pravatar.cc/150?img=52",
+      "text": "Beach days are essential for mental health! Looks like a perfect day.",
+      "createdAt": "2024-01-18T17:30:00Z",
+      "likesCount": 21
+    },
+    {
+      "id": 38,
+      "postId": 8,
+      "author": "Jordan Taylor",
+      "avatar": "https://i.pravatar.cc/150?img=53",
+      "text": "Homegrown tomatoes are the absolute best! Your garden looks amazing.",
+      "createdAt": "2024-01-19T10:00:00Z",
+      "likesCount": 14
+    },
+    {
+      "id": 39,
+      "postId": 8,
+      "author": "Alex Johnson",
+      "avatar": "https://i.pravatar.cc/150?img=54",
+      "text": "Nothing compares to fresh from the garden! Do you grow anything else?",
+      "createdAt": "2024-01-19T10:30:00Z",
+      "likesCount": 12
+    },
+    {
+      "id": 40,
+      "postId": 8,
+      "author": "Sarah Chen",
+      "avatar": "https://i.pravatar.cc/150?img=55",
+      "text": "Those tomatoes look so juicy and perfect! 🍅",
+      "createdAt": "2024-01-19T11:00:00Z",
+      "likesCount": 17
+    },
+    {
+      "id": 41,
+      "postId": 8,
+      "author": "Mike Rodriguez",
+      "avatar": "https://i.pravatar.cc/150?img=56",
+      "text": "Garden-to-table is the way to go! Your plants look so healthy.",
+      "createdAt": "2024-01-19T11:30:00Z",
+      "likesCount": 10
+    },
+    {
+      "id": 42,
+      "postId": 8,
+      "author": "Emma Watson",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "text": "This inspires me to start my own vegetable garden next season!",
+      "createdAt": "2024-01-19T12:00:00Z",
+      "likesCount": 19
+    },
+    {
+      "id": 43,
+      "postId": 9,
+      "author": "David Kim",
+      "avatar": "https://i.pravatar.cc/150?img=58",
+      "text": "Live music hits different! Who was performing?",
+      "createdAt": "2024-01-20T00:15:00Z",
+      "likesCount": 13
+    },
+    {
+      "id": 44,
+      "postId": 9,
+      "author": "Lisa Park",
+      "avatar": "https://i.pravatar.cc/150?img=59",
+      "text": "The energy at live shows is unmatched! Looks like an amazing venue.",
+      "createdAt": "2024-01-20T00:45:00Z",
+      "likesCount": 16
+    },
+    {
+      "id": 45,
+      "postId": 9,
+      "author": "Ryan Lee",
+      "avatar": "https://i.pravatar.cc/150?img=60",
+      "text": "Concert nights are the best nights! Hope your ears recovered! 🎵",
+      "createdAt": "2024-01-20T01:15:00Z",
+      "likesCount": 11
+    },
+    {
+      "id": 46,
+      "postId": 11,
+      "author": "Sophie Green",
+      "avatar": "https://i.pravatar.cc/150?img=61",
+      "text": "Art museums are so thought-provoking! What was your favorite piece?",
+      "createdAt": "2024-01-20T16:00:00Z",
+      "likesCount": 15
+    },
+    {
+      "id": 47,
+      "postId": 12,
+      "author": "Tom Wilson",
+      "avatar": "https://i.pravatar.cc/150?img=62",
+      "text": "Rainy day coding sessions are the most productive! What are you building?",
+      "createdAt": "2024-01-21T11:15:00Z",
+      "likesCount": 12
+    },
+    {
+      "id": 48,
+      "postId": 13,
+      "author": "Anna Davis",
+      "avatar": "https://i.pravatar.cc/150?img=63",
+      "text": "Sometimes the journey is more important than the destination! Beautiful sunset.",
+      "createdAt": "2024-01-21T19:00:00Z",
+      "likesCount": 18
+    },
+    {
+      "id": 49,
+      "postId": 14,
+      "author": "Chris Brown",
+      "avatar": "https://i.pravatar.cc/150?img=64",
+      "text": "PR goals! That consistent work really does pay off. Congrats! 💪",
+      "createdAt": "2024-01-22T07:00:00Z",
+      "likesCount": 20
+    },
+    {
+      "id": 50,
+      "postId": 15,
+      "author": "Mia Thompson",
+      "avatar": "https://i.pravatar.cc/150?img=65",
+      "text": "Food trucks always have the best surprises! Korean BBQ sounds incredible right now.",
+      "createdAt": "2024-01-22T19:30:00Z",
+      "likesCount": 14
+    }
+  ]
 }
