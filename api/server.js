@@ -1,11 +1,12 @@
 const jsonServer = require('json-server')
+const path = require('path')
 const server = jsonServer.create()
-const router = jsonServer.router('db.json')
+const db = require(path.join(__dirname, '../db.json'))
+const router = jsonServer.router(db)
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
 
-// Enable CORS for all routes
 server.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*')
   res.header('Access-Control-Allow-Headers', '*')
@@ -14,4 +15,6 @@ server.use((req, res, next) => {
 
 server.use(router)
 
-module.exports = server
+module.exports = (req, res) => {
+  server(req, res)
+}
